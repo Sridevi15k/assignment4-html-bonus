@@ -1,0 +1,161 @@
+/* Write your CSS here! */
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 8px;
+	background-color: #e5ebde;
+	font-size: 62.5%;
+}
+#mainHeading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%, -250%);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: red;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.funParagraph {
+  color: green;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.25em;
+  margin: 0 0 0.625em 0.625em;
+  font-weight: bold;
+}
+
+.mealoftheday {
+  font-size: 1.6em;
+  font-style: italic;
+  color: rgb(68, 11, 68);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0.625em 0 0.625em 0.625em;
+}
+
+.recipe {
+    font-size: 1.4em;
+    font-style: normal;
+    color: rgb(63, 29, 63);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+}
+
+.recipecontents {
+    font-size: 1.0em;
+    font-style: normal;
+    color: rgb(63, 29, 63);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0.225em 0 0.225em 1.8em;
+}
+
+
+header,
+main,
+footer {
+	background-color: rgb(199, 236, 112);
+	font-size: 1.6em;
+}
+
+header {
+	padding: 1.875em 0;
+}
+
+header h1 {
+	text-align: center;
+}
+
+h2, h3 {
+	margin: 0;
+}
+
+/* h1 {
+	font-size: 2.5em;
+} */
+
+main h2 {
+	padding: 0.625em 0 0.625em 0.625em;
+}
+
+section h2 {
+     padding: 0.625em 0 0.425em 0.725em;
+     font-size: 1.4em;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color:rgb(68, 11, 68);
+}
+ section h3 {
+     padding: 0.625em 0 0.225em 0.925em;
+     font-size: 1.4em;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color:rgb(68, 11, 68);
+ }
+
+ .green {
+     padding: 0.10em 0 0.225em 0.925em;
+     font-size: 1.2em;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color:rgb(68, 11, 68); 
+ } 
+
+section {
+	margin: 1.875em 0;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 0.75em;
+}
+
+p {
+	padding: 1.25em;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+footer {
+	text-align: center;
+	padding: 3em;
+}
+
+footer p {
+	display: inline-block;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
+	body {
+		font-size: 50%;
+	}
+}
